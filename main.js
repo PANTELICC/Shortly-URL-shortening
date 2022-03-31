@@ -21,7 +21,7 @@ async function shorten_link() {
     var data = await response.json();
     const html = document.querySelector(".shorten1");
     html.innerHTML += `
-        <div class="shorhenlink" ">
+        <div class="shorhenlink">
             <h5 class="websitelink">${link.value}</h5>
             <div class="line"></div>
             <div class="row">
